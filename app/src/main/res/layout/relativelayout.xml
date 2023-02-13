@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+         android:src="@drawable/baseline_alternate_email_24"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvByrdie"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="Byrdie"
+        android:textSize="50sp"
+        android:textColor="#742525"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ivAvatar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#FFFFFF"
+        android:text="10 phut truoc"
+        android:textSize="20sp"
+        android:textColor="#4E4A4A"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ivAvatar"
+        android:layout_below="@+id/tvByrdie"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="Pokemon Go thu ve 2 ty do"
+        android:textSize="20dp"
+        android:textColor="#4E4A4A"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/ivAvatar"/>
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/baseline_key_24"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/tv1"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="Doanh thu pokemon go"
+        android:textSize="30sp"
+        android:textColor="#4E4A4A"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/ivImage"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="dantri.com.vn"
+        android:textSize="20sp"
+        android:textColor="#4E4A4A"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/tv2"/>
+
+</RelativeLayout>
